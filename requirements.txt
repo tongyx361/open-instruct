@@ -21,7 +21,7 @@ jsonlines
 mecab-python3
 unidic-lite
 einops
-flash-attn
+flash-attn<2 # the codebase as to 2023-8-1 has not supported flash attention v2, "<1" coule be removed if v2 is supported in the future
 auto-gptq
 fire
 # alpaca-farm eval - my fork with some fixes.
